@@ -8,5 +8,7 @@ def hello(i):
     # return a
     return "Hello World! " + i
 
+const a = b;
+
 iface = gr.Interface(fn=hello, inputs="text", outputs="text")
 iface.launch()
